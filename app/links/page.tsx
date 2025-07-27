@@ -19,14 +19,14 @@ const links = [
     category: 'ダウンロード',
     items: [
       {
-        name: 'MakeCountry v1.2.0 (最新版)',
-        description: 'Minecraft BE 1.20.50+ 対応の最新版',
-        url: '#',
+        name: 'Latest Release',
+        description: '最新版',
+        url: 'https://github.com/karonyt/MakeCountry/releases/latest',
         icon: Download,
         badge: '最新',
         badgeColor: 'bg-green-600'
       },
-      {
+      /*{
         name: 'MakeCountry v1.1.5 (安定版)',
         description: 'より安定したバージョンをお求めの方に',
         url: '#',
@@ -41,7 +41,7 @@ const links = [
         icon: Globe,
         badge: 'おすすめ',
         badgeColor: 'bg-amber-600'
-      }
+      }*/
     ]
   },
   {
@@ -50,7 +50,7 @@ const links = [
       {
         name: 'GitHub リポジトリ',
         description: 'ソースコードの閲覧、Issue報告、プルリクエスト',
-        url: '#',
+        url: 'https://github.com/karonyt/MakeCountry/',
         icon: Github,
         badge: 'オープンソース',
         badgeColor: 'bg-stone-600'
@@ -193,16 +193,13 @@ export default function LinksPage() {
         <CardContent>
           <div className="space-y-3 text-emerald-700">
             <p>
-              <strong>v1.3.0 アップデート予定:</strong> 
-              2024年2月に大型アップデートを予定しています。新しい外交機能と経済システムが追加されます。
+              <strong>チャットコマンドが削除されます！！:</strong> 
+              スラッシュコマンドの実装に伴い、近いアップデートでチャットコマンドを削除します
             </p>
+
             <p>
               <strong>サーバー対応:</strong> 
               マルチプレイヤーサーバーでの動作改善を継続的に行っています。問題があればDiscordでお知らせください。
-            </p>
-            <p>
-              <strong>コミュニティイベント:</strong> 
-              月1回、Discord上で国家建設コンテストを開催しています。豪華賞品もご用意！
             </p>
           </div>
         </CardContent>
